@@ -2,8 +2,7 @@ import pytest
 from sqlalchemy.exc import IntegrityError, CompileError
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-from app import app
-from models import db, Author, Post
+from app import app, db, Author, Post
 
 
 class TestAuthor:
